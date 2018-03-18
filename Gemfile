@@ -5,6 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# post 모델에 post_type을 열거형으로 선언하기 위해 사용하는 젬?
+# gem 'as_enum'
+# 반응형 모바일 웹브라우저 환경을 구축하기 위한 프론트엔드 프레임워크 중의 하나인 bootstrap을
+# 레일즈 프로젝트에서 사용하기 쉽게 해 주는 젬
+gem 'bootstrap-sass', '~> 3.3.6'
+# 레일즈의 form_for 헬퍼메소드를 사용 할 때 문법을 더 간단하게 작성할 수 있도록 해주는 젬
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
